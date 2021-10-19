@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://webtemplate.infokit.dev/"
 languageCode = "en-us"
 title = "IJM Thought Piece"
 theme= "single"
