@@ -9,6 +9,12 @@
     <link rel="icon" href="/favicon.ico">
     <link rel="canonical" href="{{ .Permalink }}">
 
+    {{ if .Params.noindex }}
+	<meta name="robots" content="noindex" />
+{{ else }}
+	<meta name="robots" content="noarchive">
+{{ end }}
+
     {{ $title := print .Site.Title " | " .Title }}
     {{ if .IsHome }}{{ $title = .Site.Title }}
     <title>{{ $title }}</title> {{ end }}
