@@ -25,4 +25,6 @@ Meanwhile, if IJM decides that specific products are better released as separate
 
 [Thank you for Reading. Head back to the main page with this link,](/) or give feedback [here.]()
 
+Edited with gitpod.io. (workshop on this to follow)
+
 
